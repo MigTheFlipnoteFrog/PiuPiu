@@ -34,7 +34,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		AD4AD79F292D4A6D00B47608 /* Piupiu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Piupiu.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD4AD79F292D4A6D00B47608 /* PiuPiu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PiuPiu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD4AD7A2292D4A6D00B47608 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AD4AD7A4292D4A6D00B47608 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		AD4AD7A6292D4A6F00B47608 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -85,7 +85,7 @@
 		AD4AD7A0292D4A6D00B47608 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				AD4AD79F292D4A6D00B47608 /* Piupiu.app */,
+				AD4AD79F292D4A6D00B47608 /* PiuPiu.app */,
 				AD4AD7B0292D4A6F00B47608 /* PiupiuTests.xctest */,
 				AD4AD7BA292D4A6F00B47608 /* PiupiuUITests.xctest */,
 			);
@@ -138,7 +138,7 @@
 			);
 			name = Piupiu;
 			productName = Piupiu;
-			productReference = AD4AD79F292D4A6D00B47608 /* Piupiu.app */;
+			productReference = AD4AD79F292D4A6D00B47608 /* PiuPiu.app */;
 			productType = "com.apple.product-type.application";
 		};
 		AD4AD7AF292D4A6F00B47608 /* PiupiuTests */ = {
@@ -420,6 +420,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_ENTITLEMENTS = Piupiu/Piupiu.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -427,6 +428,7 @@
 				DEVELOPMENT_TEAM = Y545FNA4F8;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.entertainment";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INFOPLIST_KEY_NSMainStoryboardFile = Main;
 				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
@@ -434,9 +436,9 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.KooParaMacOS.Piupiu;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				MARKETING_VERSION = "1.1 \"Pintinho Amarelinho\"";
+				PRODUCT_BUNDLE_IDENTIFIER = com.KooParaMacOS.PiuPiu;
+				PRODUCT_NAME = PiuPiu;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 			};
@@ -447,6 +449,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_ENTITLEMENTS = Piupiu/Piupiu.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -454,6 +457,7 @@
 				DEVELOPMENT_TEAM = Y545FNA4F8;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.entertainment";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INFOPLIST_KEY_NSMainStoryboardFile = Main;
 				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
@@ -461,9 +465,9 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.KooParaMacOS.Piupiu;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				MARKETING_VERSION = "1.1 \"Pintinho Amarelinho\"";
+				PRODUCT_BUNDLE_IDENTIFIER = com.KooParaMacOS.PiuPiu;
+				PRODUCT_NAME = PiuPiu;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 			};
